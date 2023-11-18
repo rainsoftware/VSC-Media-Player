@@ -1,0 +1,28 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "VenomVSC",
+    "icon": "assets/placeholder.svg",
+    "toolbar": true,
+    "width": 800,
+    "height": 500,
+    "min_width": 800,
+    "min_height": 500,
+    "max_width": 800,
+    "max_height": 500,
+    "position": "mouse"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clappr": "^0.4.1",
+    "underscore": "^1.13.1"
+  }
+}

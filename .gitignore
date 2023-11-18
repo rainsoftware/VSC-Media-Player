@@ -1,0 +1,3 @@
+# Large dependencies
+node_modules/nw-builder
+node_modules/nw
