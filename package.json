@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "nw-builder": "4.4.2-beta.4"
+  },
+  "dependencies": {
+    "nw": "^0.82.0"
+  },
+  "name": "vsc",
+  "version": "1.0.0",
+  "description": "A webGL game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"It's alive!!!!!!!!\"",
+    "dev": "newbuild ",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "author": "Rainsoftware",
+  "license": "MIT"
+}
